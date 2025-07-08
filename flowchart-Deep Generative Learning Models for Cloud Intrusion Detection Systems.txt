@@ -1,0 +1,70 @@
+
+1. Importing the packages
+2. Exploring the dataset 
+	- KDD-CUP dataset
+	- UNSW-NB15 dataset
+3. Data processing
+	- Scaling the Dataset 
+	- Processing using Pandas Dataframe
+	- SMOTE sampling the dataset
+	- Autoencoding the data
+4. Visualization using seaborn & matplotlib
+5. Label Encoding using LabelEncoder
+6. Feature Selection 
+	- RFE - processed two times to reduce the dataset columns size
+7. Splitting the data to train and test for Deep LEarning and Taking X and Y for Machine Learning
+8. Building the model
+
+	- Original Dataset
+	
+		- Random Forest
+		- Decision Tree
+		- Support Vector Machine
+		- Stacking Classifier - (ExtraTree + LSVC with LR)
+
+	 - SMOTE Sampling
+	
+		- Random Forest
+		- Decision Tree
+		- Support Vector Machine
+		- Stacking Classifier - (ExtraTree + LSVC with LR)
+
+	- CADDE - Encoding 
+	
+		- Random Forest
+		- Decision Tree
+		- Support Vector Machine
+		
+		- Stacking Classifier - (ExtraTree + LSVC with LR)
+
+	- CADDE-KNN Encoding
+	
+		- Random Forest
+		- Decision Tree
+		- Support Vector Machine
+		
+		- Stacking Classifier - (ExtraTree + LSVC with LR)
+ 
+9. Training and Building the model
+
+
+Flask Framework
+----------------
+
+ 
+10. Flask Framework with Sqlite for signup and signin
+11. Importing the packages
+12. User gives input as Feature Values 
+13. The given input is preprocessed for prediction
+14. Trained model is used for prediction
+15. Final outcome is displayed through frontend
+
+
+Extension
+----------
+
+In the base paper the author mentioned to use differ sampling and encoding techinque for analysis the dataset with Machine learning models like RF, DT, SVM,
+As an extension we applied ensemble method  combine the predictions of multiple individual models to produce a more robust and accurate final prediction.
+However, we can further enhance the performance by exploring other ensemble techniques such as Voting Classifier combination of RF + DT + SVC and 
+Stacking Classifier with Extratree Classifier + LinearSVC with LR
+As an extension we can build front end using flask framework for user testing and with user authenication.
